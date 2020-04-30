@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>copa_filmes_api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\copa-filmes-api.Dominio\copa-filmes-api.Dominio.csproj" />
+    <ProjectReference Include="..\copa-filmes-api.Entidades\copa-filmes-api.Entidades.csproj" />
+  </ItemGroup>
+
+
+</Project>
